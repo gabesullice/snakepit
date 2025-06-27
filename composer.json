@@ -1,0 +1,20 @@
+{
+    "name": "gabesullice/snakepit",
+    "description": "Scarily simple concurrent HTTP processing",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~7.9"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GabeSullice\\Snakepit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Sullice",
+            "email": "gabriel@sullice.com"
+        }
+    ]
+}
